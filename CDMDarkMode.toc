@@ -1,0 +1,9 @@
+## Interface: 120000
+## Title: CDM Dark Mode
+## Notes: Darkens the Cooldown Manager icons during GCD.
+## Author: Gladarg
+## IconTexture: Interface\AddOns\CDMDarkMode\media\logo.tga
+## Version: 1.0.0
+## SavedVariables: CDMDarkModeDB
+
+Core.lua
