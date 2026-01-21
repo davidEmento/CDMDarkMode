@@ -32,7 +32,7 @@ git push origin v1.0.2
 ```
 
 ## 4) Verify The CI Run
-- GitHub UI: Repository → Actions → "Release AddOn" → check latest run for your tag.
+- GitHub UI: go to [Actions](https://github.com/davidEmento/CDMDarkMode/actions) → "Release AddOn" → check the latest run for your tag.
 - Optional CLI (if `gh` is in PATH):
 
 ```powershell
@@ -40,6 +40,15 @@ git push origin v1.0.2
 gh run list --workflow "Release AddOn" --limit 5
 # Watch the latest run by ID and exit non-zero on failure
 gh run watch <run-id> --exit-status
+```
+
+- Optional CLI (if `gh` is not in PATH), use the full path:
+
+```powershell
+# Show recent runs by workflow name
+& "C:\Program Files\GitHub CLI\gh.exe" run list --workflow "Release AddOn" --limit 5
+# Watch a specific run by ID
+& "C:\Program Files\GitHub CLI\gh.exe" run watch <run-id> --exit-status
 ```
 
 ## 5) Confirm On CurseForge
@@ -66,3 +75,4 @@ git push --force-with-lease
 ## Optional Enhancements
 - Create GitHub Releases and attach the zip.
 - Add additional distribution targets (WoWInterface/Wago) by including keys and packager args.
+ - Add a shortcut: pin the [Actions](https://github.com/davidEmento/CDMDarkMode/actions) page and your CurseForge project page for quick checks.
