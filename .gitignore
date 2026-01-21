@@ -1,0 +1,16 @@
+# VS Code
+.vscode/
+
+# GitHub Actions packaging artifacts (BigWigsMods packager)
+.release/
+.build/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Archives
+*.zip
+
+# Lua compiled/intermediate (normally none, but safe)
+*.luac

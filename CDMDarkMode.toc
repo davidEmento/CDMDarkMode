@@ -3,7 +3,7 @@
 ## Notes: Darkens the Cooldown Manager icons during GCD.
 ## Author: Gladarg
 ## IconTexture: Interface\AddOns\CDMDarkMode\media\logo.tga
-## Version: 1.0.0
+## Version: @project-version@
 ## X-Curse-Project-ID: 1440051
 ## SavedVariables: CDMDarkModeDB
 

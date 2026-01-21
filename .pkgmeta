@@ -1,0 +1,7 @@
+package-as: CDMDarkMode
+ignore:
+  - .github/
+  - .gitignore
+  - README.md
+  - CHANGELOG.md
+  - .vscode/
